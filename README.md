@@ -1,2 +1,1 @@
-# rsschool-cv
-new repository for rsschool &lt;3
+https://010MochalovPA.github.io/rsschool-cv/cv
