@@ -1,0 +1,176 @@
+
+:root {
+  --main-header-color: #414143;
+  --main-body-color:#D4D4D4;
+  --main-aside-color: #E6E8EA;
+}
+
+
+body{
+  background-color: var(--main-body-color);
+  height: 100vh;
+}
+
+.content{
+  width: 840px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.header-content{
+  background-color: var(--main-header-color);
+  color: #ffffff;
+  height: 280px;
+  display: flex;
+  justify-content: start;
+}
+
+.header-content .avatar{
+  height: 100%;
+  filter: grayscale(100%); 
+}
+.header-title{
+  padding-top: 40px;
+  padding-left: 45px;
+}
+.name{
+  font-size: 96px;
+  letter-spacing: 0.1em;
+}
+.surname{
+  font-size: 66px;
+  letter-spacing: 0.3em;
+  margin-bottom: 10px;
+}
+.position{
+  font-size: 18px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 0.3em;
+}
+
+.main-content{
+  height: calc(100% - 280px);
+  width: 100%;
+  display: flex;
+}
+.aside-content{
+  width: 280px;
+  height: 100%;
+  background-color: var(--main-aside-color);
+}
+.aside-block{
+  padding-top: 30px;
+  position: relative;
+  margin-left: 30px;
+}
+.aside-block-title{
+  display: inline-block;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  color:#333;
+  margin-bottom: 25px;
+}
+.aside-block-hr{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+  width: 100px; 
+}
+
+.aside-block-text{
+  max-width: 220px;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: 1.4em;
+}
+
+.aside-block-contacts-list{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  max-width: 220px;
+}
+ul li:not(:last-child) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.icon{
+  width: 20px;
+  margin-right: 10px;
+}
+.icon-small{
+  width: 12px;
+  margin-right: 6px;
+}
+.aside-skills-list {
+  max-width: 220px;
+}
+.aside-skills-list li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+.skills-input{
+  -webkit-appearance:none;
+  width:120px;
+  height:2px;
+  background:#333;
+  border:none;
+  outline:none;
+}
+
+.skills-input::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  width:14px;
+  height:14px;
+  background:#eee;
+  border:2px solid #333;
+  border-radius:50%;
+}
+
+.section{
+  width: calc(100% - 280px);
+}
+.section-block{
+  padding-top: 30px;
+  padding-left: 45px;
+  width: calc(100% - 90px);
+  padding-right: 45px;
+
+}
+.section-title{
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  
+  margin-bottom: 25px;
+}
+.section-subtitle{
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color:#333;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.section-text{
+  font-size: 16px;
+  display: flex;
+  color:rgb(95, 95, 95);
+  justify-content: space-between;
+}
+.location{
+  display: flex;
+  align-items: center;
+}
+
+.section-education{
+  margin-bottom: 30px;
+}
