@@ -1,0 +1,60 @@
+
+:root {
+  --main-header-color: #414143;
+  --main-body-color:#D4D4D4;
+  --main-aside-color: #E6E8EA;
+}
+
+
+body{
+  background-color: var(--main-body-color);
+  height: 100vh;
+}
+
+.content{
+  width: 720px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.header-content{
+  background-color: var(--main-header-color);
+  color: #ffffff;
+  height: 240px;
+  display: flex;
+  justify-content: start;
+}
+
+.header-content .avatar{
+  height: 100%;
+  filter: grayscale(100%); 
+}
+.header-title{
+  padding-top: 26px;
+  padding-left: 50px;
+}
+.name{
+  font-size: 96px;
+  letter-spacing: 0.1em;
+}
+.surname{
+  font-size: 66px;
+  letter-spacing: 0.2em;
+}
+.position{
+  font-size: 18px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.main-content{
+  height: calc(100% - 240px);
+  width: 100%;
+}
+.aside-content{
+  width: 240px;
+  height: 100%;
+  background-color: var(--main-aside-color);
+}
